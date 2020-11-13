@@ -12,7 +12,17 @@ skriv ut hvert ord på en egen linje:
     
 - [ ] DRY (don't repeat yourself)
 
+
     for i in range(3):
         print(words[i])
-        
+
+bedre:        
+         
+    for i in range(len(words)):
+        print(words[i])
+
+best:
+
+    for word in words:
+        print(word)
         
