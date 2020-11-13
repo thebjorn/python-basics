@@ -21,12 +21,12 @@ Python promptet (`>>>`) kan brukes som en kalkulator:
     >>> (2 + 3) * 4
     20
  
- heltall (over) har å begrensninger i Python.
+heltall (over) har å begrensninger i Python.
  
- (nb: vi skriver `(2 + 3) * 4` og ikke `(2+3)*4` slik at det blir enklere for mennesker å lese).
+(nb: vi skriver `(2 + 3) * 4` og ikke `(2+3)*4` slik at det blir enklere for mennesker å lese).
  
- Python bruker flyttall (float) for å representere reelle tall (dvs. tall i R). I mange tilfeller 
- vil dette være "usynlig":
+Python bruker flyttall (float) for å representere reelle tall (dvs. tall i R). I mange tilfeller 
+vil dette være "usynlig":
  
     >>> 1/10
     0.1
@@ -42,7 +42,7 @@ av verdien du har skrevet:
     >>> 0.1 + 0.1 + 0.1
     0.30000000000000004
  
- oftest dukker slike problemer når du forsøker å sammenligne en flyttallsutregning med en verdi:
+oftest dukker slike problemer når du forsøker å sammenligne en flyttallsutregning med en verdi:
  
     >>> 0.1 + 0.1 + 0.1 == 0.3
     False
