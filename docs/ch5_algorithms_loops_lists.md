@@ -19,6 +19,9 @@ Man kan hente ut ett element fra en liste ved å bruke en indeks:
     2
     >>> a[2]
     3
+    
+Negative indekser teller bakfra. Siste element:
+
     >>> a[-1]
     2
     
@@ -39,6 +42,16 @@ Man kan også hente ut flere sammenhengende elementer (`slice`):
     ['h', 'e', 'l', 'l', 'o']
     >>> list({1, 2, 3})
     [1, 2, 3]
+    
+man legger til nye elementer på slutten ved
+
+    lst = ['en', 'to', 'tre']
+    lst.append('fire')
+
+eller i midten ved 
+
+    lst.insert(1, '1.5')
+
 
 `range(lo, hi)` lager et halv-åpent interval (fra-og-med `lo` til-men-ikke-inkludert `hi`):
 
