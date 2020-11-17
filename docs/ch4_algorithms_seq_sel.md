@@ -43,11 +43,13 @@ I python skrives det slik:
 - [ ] legg merke til kolon
 - [ ] legg merke til innrykk
 
-
+Hvis det er mørkt så slå på lyset.
 
     if is_dark():
         turn_light_on()
-        
+
+Hvis x er større enn 5 så skriv ut x.
+
     if x > 5:
         print(f"{x} er større enn fem")
 
