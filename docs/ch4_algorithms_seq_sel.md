@@ -44,11 +44,13 @@ I python skrives det slik:
 - [ ] legg merke til innrykk
 
 
+
     if is_dark():
         turn_light_on()
         
     if x > 5:
         print(f"{x} er større enn fem")
+
 
 programmet fortsetter etter if-setningen:
 
