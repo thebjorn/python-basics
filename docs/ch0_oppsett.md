@@ -10,8 +10,8 @@
    ![new image](img/new-project.png)
 1. Velg Scientific, oppgi et nytt prosjektnavn, bruk Conda
    ![new image](img/new-scientific-project.png)
-1. Åpne `requirements.txt` filen og skriv inn `matplotlib`, deretter 
-   høyreklikk i `requirements.txt` fila og velg "Install All Packages"
+1. Åpne `requirements.txt` filen og skriv inn `matplotlib`, ~~deretter 
+   høyreklikk i `requirements.txt` fila og velg "Install All Packages"~~
    ![new image](img/requirements.png)
 
    a. du ser hvor langt installasjonen har kommet nederst i vinduet:
@@ -30,6 +30,9 @@
     plot(x, y)
     show()
     ```
+1. Installer manglende requirements:
+
+   ![new image](img/install-requirement.png)
 
 1. Kjør programmet
 
