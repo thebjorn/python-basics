@@ -10,7 +10,7 @@ F.eks. skriv ut tallene som er mindre enn 5:
     n = 0
     while n < 5:
         print(n)
-        i = i + 1
+        n = n + 1
 
 skriv ut tallene fra 5 til 0:
 
